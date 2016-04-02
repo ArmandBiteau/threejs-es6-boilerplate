@@ -1,5 +1,6 @@
-#three-boilerplate
+#Threejs-ES6-Boilerplate
 
-###Usage:
+###Usage
 
+`npm install`
 `npm start`
