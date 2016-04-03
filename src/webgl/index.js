@@ -104,9 +104,7 @@ class WebGL {
 
         this.renderer.setSize(window.innerWidth, window.innerHeight);
 
-        if (this.useComposer) {
-            this.composer.setSize(window.innerWidth, window.innerHeight);
-        }
+        this.composer.setSize(window.innerWidth, window.innerHeight);
 
         this.camera.aspect = window.innerWidth / window.innerHeight;
         this.camera.updateProjectionMatrix();
