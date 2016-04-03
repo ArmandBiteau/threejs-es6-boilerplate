@@ -1,6 +1,6 @@
 'use strict';
 
-import Sphere from '../meshes/sphere';
+import Sphere from './meshes/sphere';
 import THREE from 'three';
 
 let OrbitControls = require('three-orbit-controls')(THREE)
